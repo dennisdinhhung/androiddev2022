@@ -11,10 +11,9 @@
         android:theme="@style/Theme.USTHWeather" >
 
         <activity   android:name=".WeatherActivity"
-                    android:exported="true">
+                    android:exported="true"> <!--android exported is needed-->
 
-            <!--Inside this activity you should be having below code for
-                intent filter which will check the default activity-->
+            <!--This is need for startup activity-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

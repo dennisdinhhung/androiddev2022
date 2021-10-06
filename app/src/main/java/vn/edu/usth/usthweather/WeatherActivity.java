@@ -13,7 +13,6 @@ public class WeatherActivity extends AppCompatActivity {
         setContentView(R.layout.activity_weather);
 
         Log.i("success", "Success!");
-
     }
 
     @Override
