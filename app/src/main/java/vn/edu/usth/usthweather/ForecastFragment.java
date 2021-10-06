@@ -60,7 +60,7 @@ public class ForecastFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_forecast, container, false);
 
-        view.setBackgroundColor(0x20FF0000);
+        view.setBackgroundColor(0x20000000);
         // Inflate the layout for this fragment
         return view;
     }
