@@ -20,6 +20,9 @@ public class WeatherActivity extends AppCompatActivity {
         setContentView(R.layout.activity_weather);
 
         Log.i("onCreate()", "Successfully done onCreate()!");
+
+        ForecastFragment firstFragment = new ForecastFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.something, firstFragment).commit();
     }
 
     @Nullable
