@@ -62,19 +62,8 @@ public class ForecastFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         //Replace View with LinearLayout
-        LinearLayout ll = new LinearLayout(getActivity());
-        ll.setBackgroundColor(0x20FF0000);
-        ll.setOrientation(LinearLayout.VERTICAL);
+        View view = inflater.inflate(R.layout.fragment_forecast, container, false);
 
-        TextView thursday = new TextView(getActivity());
-        thursday.setText("Thursday will be cloudy.");
-
-        ImageView cloudy  = new ImageView(getActivity());
-        cloudy.setImageResource(R.drawable.cloudy);
-
-        ll.addView(thursday);
-        ll.addView(cloudy);
-
-        return ll;
+        return view;
     }
 }

@@ -2,12 +2,252 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ForecastFragment">
+    android:layout_height="wrap_content"
+    android:padding="10dp"
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    tools:context=".ForecastFragment"
+    android:id="@+id/id_fragment_forecast"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hello World!" />
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="#300D69FC">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Mon"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cloudy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Partly Cloudy\n24C - 30C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="#300D69FC">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Tue"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/sun"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Showers\n24C - 30C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="#300D69FC">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Wed"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/rain"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Rain\n22C - 23C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="#300D69FC">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Thu"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/scattered_rain"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Scattered Showers\n22C - 27C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="#300D69FC">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Fri"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cloudy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Mostly Cloudy\n22C - 30C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="#300D69FC">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Sat"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/cloudy"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Partly Cloudy\n24C - 28C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="#300D69FC">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Sun"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/scattered_rain"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thunderstorms\n25C - 28C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="#300D69FC">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Mon"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/scattered_rain"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Scattered Thunderstorms\n25C - 28C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="#300D69FC">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Tue"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/rain"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Showers\n24C - 26C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:background="#300D69FC">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Wed"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/scattered_rain"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Scattered Thunderstorms\n23C - 27C"/>
+    </LinearLayout>
+
 </LinearLayout>
