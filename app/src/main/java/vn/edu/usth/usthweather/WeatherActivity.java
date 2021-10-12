@@ -22,6 +22,9 @@ public class WeatherActivity extends AppCompatActivity {
         Log.i("onCreate()", "Successfully done onCreate()!");
 
         ForecastFragment firstFragment = new ForecastFragment();
+        WeatherFragment weatherFragment = new WeatherFragment();
+
+        getSupportFragmentManager().beginTransaction().add(R.id.id_weather_activity, weatherFragment).commit();
         getSupportFragmentManager().beginTransaction().add(R.id.id_weather_activity, firstFragment).commit();
     }
 
