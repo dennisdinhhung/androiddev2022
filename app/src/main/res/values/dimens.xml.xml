@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_text_width">70dp</dimen>
+    <dimen name="list_text_height">50dp</dimen>
+    <dimen name="list_padding">7dp</dimen>
+</resources>

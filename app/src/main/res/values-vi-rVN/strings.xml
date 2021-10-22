@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">USTH Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_12c_n_cloudy">12C\nNhiều mây</string>
+    <string name="paris">Pa Ri</string>
+    <string name="mon">Thứ hai</string>
+    <string name="partly_cloudy_n_24c_30c">Ít mây\n24C - 30C</string>
+    <string name="tue">Thứ ba</string>
+    <string name="showers_n_24c_30c">Mưa lớn\n24C - 30C</string>
+    <string name="wed">Thứ tư</string>
+    <string name="rain_n_22c_23c">Mây\n22C - 23C</string>
+    <string name="thu">Thứ năm</string>
+    <string name="scattered_showers_n_22c_27c">Mưa rải rác\n22C - 27C</string>
+    <string name="fri">Thứ sáu</string>
+    <string name="mostly_cloudy_n_22c_30c">Đa phần mây\n22C - 30C</string>
+    <string name="sat">Thứ bảy</string>
+    <string name="partly_cloudy_n_24c_28c">Ít mây\n24C - 28C</string>
+    <string name="sun">Chủ nhật</string>
+    <string name="thunderstorms_n_25c_28c">Sấm chớp\n25C - 28C</string>
+    <string name="scattered_thunderstorms_n_25c_28c">Sấm rải rác\n25C - 28C</string>
+    <string name="showers_n_24c_26c">Mưa lớn\n24C - 26C</string>
+    <string name="scattered_thunderstorms_n_23c_27c">Sấm rải rác\n23C - 27C</string>
+</resources>

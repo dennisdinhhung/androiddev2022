@@ -2,4 +2,25 @@
     <string name="app_name">USTH Weather</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_12c_n_cloudy">12C\nCloudy</string>
+    <string name="paris">Paris</string>
+    <string name="mon">Mon</string>
+    <string name="partly_cloudy_n_24c_30c">Partly Cloudy\n24C - 30C</string>
+    <string name="tue">Tue</string>
+    <string name="showers_n_24c_30c">Showers\n24C - 30C</string>
+    <string name="wed">Wed</string>
+    <string name="rain_n_22c_23c">Rain\n22C - 23C</string>
+    <string name="thu">Thu</string>
+    <string name="scattered_showers_n_22c_27c">Scattered Showers\n22C - 27C</string>
+    <string name="fri">Fri</string>
+    <string name="mostly_cloudy_n_22c_30c">Mostly Cloudy\n22C - 30C</string>
+    <string name="sat">Sat</string>
+    <string name="partly_cloudy_n_24c_28c">Partly Cloudy\n24C - 28C</string>
+    <string name="sun">Sun</string>
+    <string name="thunderstorms_n_25c_28c">Thunderstorms\n25C - 28C</string>
+    <string name="scattered_thunderstorms_n_25c_28c">Scattered Thunderstorms\n25C - 28C</string>
+    <string name="showers_n_24c_26c">Showers\n24C - 26C</string>
+    <string name="scattered_thunderstorms_n_23c_27c">Scattered Thunderstorms\n23C - 27C</string>
+    <string name="_12c">12C</string>
+    <string name="cloudy">Cloudy</string>
 </resources>

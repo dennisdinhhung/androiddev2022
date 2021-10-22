@@ -17,10 +17,19 @@
         android:padding="10dp">
 
         <!-- TODO: Update blank fragment layout -->
-        <TextView
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="12C\nCloudy"/>
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_12c"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cloudy"/>
+        </LinearLayout>
 
         <ImageView
             android:layout_width="wrap_content"
@@ -31,8 +40,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Paris"
-            android:layout_alignParentRight="true"/>
+            android:text="@string/paris"
+            android:layout_alignParentEnd="true"/>
     </RelativeLayout>
 
     <LinearLayout
@@ -46,231 +55,231 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="7dp"
-            android:paddingBottom="7dp">
+            android:paddingTop="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding">
 
             <TextView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:text="Mon"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
+                android:text="@string/mon"
                 android:textAlignment="center" />
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
                 android:src="@drawable/cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Partly Cloudy\n24C - 30C" />
+                android:text="@string/partly_cloudy_n_24c_30c" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="7dp"
-            android:paddingBottom="7dp">
+            android:paddingTop="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding">
 
             <TextView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:text="Tue"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
+                android:text="@string/tue"
                 android:textAlignment="center" />
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
                 android:src="@drawable/sun" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Showers\n24C - 30C" />
+                android:text="@string/showers_n_24c_30c" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="7dp"
-            android:paddingBottom="7dp">
+            android:paddingTop="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding">
 
             <TextView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:text="Wed"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
+                android:text="@string/wed"
                 android:textAlignment="center" />
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
                 android:src="@drawable/rain" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Rain\n22C - 23C" />
+                android:text="@string/rain_n_22c_23c" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="7dp"
-            android:paddingBottom="7dp">
+            android:paddingTop="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding">
 
             <TextView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:text="Thu"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
+                android:text="@string/thu"
                 android:textAlignment="center" />
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
                 android:src="@drawable/scattered_rain" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Scattered Showers\n22C - 27C" />
+                android:text="@string/scattered_showers_n_22c_27c" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="7dp"
-            android:paddingBottom="7dp">
+            android:paddingTop="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding">
 
             <TextView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:text="Fri"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
+                android:text="@string/fri"
                 android:textAlignment="center" />
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
                 android:src="@drawable/cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Mostly Cloudy\n22C - 30C" />
+                android:text="@string/mostly_cloudy_n_22c_30c" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="7dp"
-            android:paddingBottom="7dp">
+            android:paddingTop="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding">
 
             <TextView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:text="Sat"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
+                android:text="@string/sat"
                 android:textAlignment="center" />
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
                 android:src="@drawable/cloudy" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Partly Cloudy\n24C - 28C" />
+                android:text="@string/partly_cloudy_n_24c_28c" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="7dp"
-            android:paddingBottom="7dp">
+            android:paddingTop="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding">
 
             <TextView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:text="Sun"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
+                android:text="@string/sun"
                 android:textAlignment="center" />
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
                 android:src="@drawable/scattered_rain" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Thunderstorms\n25C - 28C" />
+                android:text="@string/thunderstorms_n_25c_28c" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="7dp"
-            android:paddingBottom="7dp">
+            android:paddingTop="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding">
 
             <TextView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:text="Mon"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
+                android:text="@string/mon"
                 android:textAlignment="center" />
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
                 android:src="@drawable/scattered_rain" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Scattered Thunderstorms\n25C - 28C" />
+                android:text="@string/scattered_thunderstorms_n_25c_28c" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="7dp"
-            android:paddingBottom="7dp">
+            android:paddingTop="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding">
 
             <TextView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:text="Tue"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
+                android:text="@string/tue"
                 android:textAlignment="center" />
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
                 android:src="@drawable/rain" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Showers\n24C - 26C" />
+                android:text="@string/showers_n_24c_26c" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="7dp"
-            android:paddingBottom="7dp">
+            android:paddingTop="@dimen/list_padding"
+            android:paddingBottom="@dimen/list_padding">
 
             <TextView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
-                android:text="Wed"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
+                android:text="@string/wed"
                 android:textAlignment="center" />
 
             <ImageView
-                android:layout_width="70dp"
-                android:layout_height="50dp"
+                android:layout_width="@dimen/list_text_width"
+                android:layout_height="@dimen/list_text_height"
                 android:src="@drawable/scattered_rain" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Scattered Thunderstorms\n23C - 27C" />
+                android:text="@string/scattered_thunderstorms_n_23c_27c" />
         </LinearLayout>
 
     </LinearLayout>
