@@ -14,6 +14,9 @@ import androidx.viewpager2.widget.ViewPager2;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Menu;
@@ -70,7 +73,6 @@ public class WeatherActivity<activity, val> extends AppCompatActivity {
                 tabLayout.selectTab(tabLayout.getTabAt(position));
             }
         });
-
     }
 
     //Adapter for ViewPager2
@@ -109,6 +111,40 @@ public class WeatherActivity<activity, val> extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.action_refresh:
+                // Handler
+                final Handler handler = new Handler(Looper.getMainLooper()) {
+                    @Override
+                    public void handleMessage(Message msg) {
+                        // This method is executed in main thread
+                        String content = msg.getData().getString("server_response");
+                        Toast.makeText(WeatherActivity.this, content, Toast.LENGTH_SHORT).show();
+                    }
+                };
+
+                // Thread maker
+                Thread thread = new Thread(new Runnable() {
+                    @Override
+                    public void run() {
+                        // this method is run in a worker thread
+                        try {
+                            // wait for 5 seconds to simulate a long network access
+                            Thread.sleep(5000);
+                        }
+                        catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                        // Assume that we got our data from server
+                        Bundle bundle = new Bundle();
+                        bundle.putString("server_response", "This is a thread");
+
+                        // notify main thread
+                        Message msg = new Message();
+                        msg.setData(bundle);
+                        handler.sendMessage(msg);
+                    }
+                });
+                thread.start();
+
                 Toast.makeText(this, "Refresh pressed", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.action_settings:
