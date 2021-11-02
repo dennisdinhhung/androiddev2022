@@ -4,12 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/dennisdinh/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/activity_main.xml" value="0.20364583333333333" />
+        <entry key="..\:/Users/dennisdinh/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/activity_pref.xml" value="0.20260416666666667" />
         <entry key="..\:/Users/dennisdinh/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/activity_weather.xml" value="0.25" />
         <entry key="..\:/Users/dennisdinh/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/forecast_layout.xml" value="0.20364583333333333" />
         <entry key="..\:/Users/dennisdinh/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_forcast.xml" value="0.20364583333333333" />
         <entry key="..\:/Users/dennisdinh/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_forecast.xml" value="0.33" />
         <entry key="..\:/Users/dennisdinh/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_weather.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/dennisdinh/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/fragment_weather_forecast.xml" value="0.33" />
+        <entry key="..\:/Users/dennisdinh/AndroidStudioProjects/USTHWeather/app/src/main/res/layout/menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/dennisdinh/AndroidStudioProjects/USTHWeather/app/src/main/res/menu/menu.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
